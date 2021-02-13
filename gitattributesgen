@@ -27,11 +27,11 @@ echo "*.mov filter=lfs diff=lfs merge=lfs -text" >> .gitattributes &&\
 echo "Añade extensiones de fuentes..."  &&\
 echo "" >> .gitattributes &&\
 echo "#Extensiones de fuentes" >> .gitattributes &&\
-echo "*.ttf filter=lfs diff=lfs merge=lfs -text" >> .gitattributes\
-echo "*.otf filter=lfs diff=lfs merge=lfs -text" >> .gitattributes\
-echo "*.pfb filter=lfs diff=lfs merge=lfs -text" >> .gitattributes\
-echo "*.pss filter=lfs diff=lfs merge=lfs -text" >> .gitattributes\
-echo "*.pfm filter=lfs diff=lfs merge=lfs -text" >> .gitattributes\
+echo "*.ttf filter=lfs diff=lfs merge=lfs -text" >> .gitattributes &&\
+echo "*.otf filter=lfs diff=lfs merge=lfs -text" >> .gitattributes &&\
+echo "*.pfb filter=lfs diff=lfs merge=lfs -text" >> .gitattributes &&\
+echo "*.pss filter=lfs diff=lfs merge=lfs -text" >> .gitattributes &&\
+echo "*.pfm filter=lfs diff=lfs merge=lfs -text" >> .gitattributes &&\
 
 # Archivos de Compresión
 echo "Añade extensiones de compresión de archivos..."  &&\
